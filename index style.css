@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-bottom: 2000px;
+    background-color: lightblue
+}
+header{
+    height: 150px;
+    background-image: url(https://images.pexels.com/photos/247478/pexels-photo-247478.jpeg?cs=srgb&dl=dawn-landscape-mountains-247478.jpg&fm=jpg);
+    background-position: center;
+}
+header h1{
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    text-shadow: 0px 0px 15px blue;
+}
+.menu{
+    height: 40px;
+    width: 100%;
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 15px teal;
+    position: sticky;
+    top: 0px;
+}
+.menu a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 10px;
+    flex: auto;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: lightsalmon;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?cs=srgb&dl=architecture-building-business-302769.jpg&fm=jpg);
+    background-position: center;
+    margin-top: 10px;
+}
+.container{
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    height: inherit;
+}
+.container .text h1{
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+.container .text p{
+    line-height: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+section{
+    background-color: lightblue;
+    height: 100%;
+}
+section article{
+    color: blue;
+}
+section article h1{
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+section article p{
+    line-height: 35px;
+    text-indent: 50px;
+    padding: 10px;
+    font-size: 20px;
+}

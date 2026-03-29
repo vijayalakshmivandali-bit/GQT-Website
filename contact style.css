@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    margin-bottom: 200px;
+    background: linear-gradient(90deg,rgb(0, 57, 75),rgb(210, 40, 68),rgb(105, 64, 209));
+}
+.link{
+    width: 140px;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px  0px;
+}
+.link span{
+    color: white;
+    font-size: 20px;
+}
+.container{
+    height: 480px;
+    width: 350px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px white;
+    margin: 10px auto;
+    background: linear-gradient(90deg,rgb(37, 232, 92),rgb(226, 241, 25),rgb(245, 5, 5));
+}
+.container h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    transition: all 1s;
+}
+.container .boxes div input{
+    height: 50px;
+    width: 300px;
+    margin: 10px 20px;
+    transition: all 1s;
+}
+.container .boxes textarea{
+    height: 100px;
+    width: 300px;
+    margin: 10px 20px;
+    text-align: center;
+    transition: all 1s;
+  
+}
+.container .button input{
+    height: 40px;
+    width: 300px;
+    margin: 10px 15px 10px 15px;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    background-image: radial-gradient(rgb(76, 108, 111),white,rgb(234, 27, 27));
+    transition: all 1s;
+
+}
+.container .box input::placeholder
+{
+    font-size: 20px;
+}
+.container .boxes textarea::placeholder
+{
+    font-size: 15px;
+}
+.container h1:hover{
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 15px yellow;
+    font-size: 40px;
+}
+.container .boxes input:hover{
+   transform: scale(0,0);
+}
+.container .button input:hover{
+    transform: scale(0,0);
+}
+
+.container .boxes textarea:hover{
+    transform: scale(0,0);
+}
